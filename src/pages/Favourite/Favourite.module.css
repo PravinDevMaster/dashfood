@@ -1,0 +1,32 @@
+.no-fav {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 240px;
+}
+.title {
+  font-size: var(--fs-x-large);
+  color: var(--clr-green);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.sub-title {
+  text-transform: capitalize;
+  color: var(--clr-dark);
+  width: fit-content;
+  margin-bottom: 16px;
+}
+.explore {
+  background-color: transparent;
+  border: 1px solid var(--clr-fav);
+  padding: 12px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: var(--clr-fav);
+}
+
+.explore:hover {
+  background-color: var(--clr-fav);
+  color: var(--primary-clr);
+}

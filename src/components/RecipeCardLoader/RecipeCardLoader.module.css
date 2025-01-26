@@ -1,0 +1,37 @@
+.recipe-card {
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  /* width: 300px; */
+  border-radius: 10px;
+  cursor: pointer;
+}
+.img-skeleton {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.recipe-label {
+  font-size: var(--fs-medium);
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  width: 50%;
+}
+.recipe-cuisineType {
+  text-transform: capitalize;
+  color: var(--clr-dark);
+  width: 50%;
+}
+.health-label {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+.health-label span {
+  width: 100%;
+}
